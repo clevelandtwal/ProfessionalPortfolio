@@ -1,0 +1,14 @@
+body{
+    background-color: green;
+    
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+img {
+    float: left;
+    margin: 8px;
+}
