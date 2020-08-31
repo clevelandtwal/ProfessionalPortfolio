@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link rel='stylesheet' href="style.css">
     <script src="https://kit.fontawesome.com/ed2b75e2b0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -46,39 +47,43 @@
         <div class="card">
             <div class="card-body">
                 <h2>Contact Me</h2>
-    <div class="row">
-        <div class="col-lg-3">
-            <img class="img img-thumbnail"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQGxSPnV7ggksA/profile-displayphoto-shrink_400_400/0?e=1603929600&v=beta&t=2zuy94Ugl2QaSUjYhelkP6GLrDJHaP2jeB6flrvdOkw"
-                class="img-fluid" alt="Trevor Responsive Image">
-        </div>
-        <div class="col-lg-9">
-            <div class="text-left"></div>
-            <div>
-                Email: trevor.l.wallace@gmail.com
-                <br>
-                Phone: 415.716.5485
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img class="img img-thumbnail"
+                            src="https://media-exp1.licdn.com/dms/image/C5603AQGxSPnV7ggksA/profile-displayphoto-shrink_400_400/0?e=1603929600&v=beta&t=2zuy94Ugl2QaSUjYhelkP6GLrDJHaP2jeB6flrvdOkw"
+                            class="img-fluid" alt="Trevor Responsive Image">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="text-left"></div>
+                        <form action="/action_page.php">
+                            <label for="fname">Name:</label><br>
+                            <input type="text" id="fname" name="fname" value=""><br><br>
+                            <label for="lname">Phone:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br><br>
+                            <label for="lname">Email:</label><br>
+                            <input type="text" id="lname" name="lname" value=""><br><br>
+                            <input type="submit" value="Submit">
+                        </form>
+                        <br>
+                    </div>
+                </div>
             </div>
-            <br>
         </div>
     </div>
-    </div>
-            </div>
-        </div>
     </div>
     <br>
 
-    <div class="d-flex flex-column sticky-footer-wrapper text-light align-center">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <div class="container">
-                <i class="layout-icon fab fa-linkedin text-light ml-auto" href="https://linkedin.com/in/trevorlwallace"></i>
+    <footer class="d-flex flex-column sticky-footer-wrapper text-light align-center">
+        <footer class="navbar navbar-expand-md bg-dark navbar-dark">
+            <footer class="container">
+                <a class=" fa fa-linkedin" href="https://linkedin.com/in/trevorlwallace"></a>
+            </footer>
+
+            <div>
+                © TW 2020
             </div>
-        </nav>
-        <main class="flex-fill">
-        </main>
-        <footer>
         </footer>
-    </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
